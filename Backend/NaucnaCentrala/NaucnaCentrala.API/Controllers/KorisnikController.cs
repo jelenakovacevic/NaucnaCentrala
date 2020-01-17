@@ -37,7 +37,7 @@ namespace NaucnaCentrala.API.Controllers
         {
             try
             {
-                _camundaService.StartProcess("RegistracijaProces", null);
+                _camundaService.StartProcess("RegistracijaProces", registracijaDTO.KorisnickoIme);
 
                 string taskId = _camundaService.GetUnassignedTaskId("Task_UnosPodataka");
 

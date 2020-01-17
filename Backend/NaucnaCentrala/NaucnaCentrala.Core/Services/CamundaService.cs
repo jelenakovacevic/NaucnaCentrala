@@ -128,13 +128,13 @@ namespace NaucnaCentrala.Core.Services
             throw new System.NotImplementedException();
         }
 
-        public void StartProcess(string processId, long? userId)
+        public void StartProcess(string processId, string user)
         {
             string content = JsonConvert.SerializeObject(new
             {
                 variables = new
                 {
-                    starter = new CamundaVariable<string>("demo")
+                    starter = new CamundaVariable<string>(user)
                 }
             });
 

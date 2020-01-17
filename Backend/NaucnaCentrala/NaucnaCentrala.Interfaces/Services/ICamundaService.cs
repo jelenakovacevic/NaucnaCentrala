@@ -4,7 +4,7 @@ namespace NaucnaCentrala.Interfaces.Services
 {
     public interface ICamundaService
     {
-        void StartProcess(string processId, long? userId);
+        void StartProcess(string processId, string user);
         bool DeleteProcessInstance(string processInstanceId);
         string GetAssignedTaskId(string taskDefinitionKey, string userId);
         string GetUnassignedTaskId(string taskDefinitionKey);

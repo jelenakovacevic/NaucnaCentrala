@@ -32,7 +32,7 @@ namespace NaucnaCentrala.API.Controllers
         {
             try
             {
-                _camundaService.StartProcess("KreiranjeCasopisaProces", null);
+                _camundaService.StartProcess("KreiranjeCasopisaProces", User.Identity.Name);
 
                 string taskId = _camundaService.GetUnassignedTaskId("Task_UnosPodatakaCasopis");
 
