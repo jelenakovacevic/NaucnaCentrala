@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+            
+            <form [formGroup]="kreirajCasopisForma" (ngSubmit)="potvrdi()">                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="naziv">Naziv</label>
+                            <input type="text" id="naziv" formControlName="naziv" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="issnBroj">ISSN broj</label>
+                            <input type="number" id="issnBroj" formControlName="issnBroj" class="form-control">
+                        </div>
+                    </div>
+                </div>               
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="openAccess">Da li je casopis open-access</label> <br>
+                            <input type="checkbox" id="openAccess" formControlName="openAccess">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">                    
+                    <div class="col-xs-12" formArrayName="naucneOblasti">
+                        <label for="reviewer">Naucne oblasti</label>
+                        <div 
+                            class="row" 
+                            *ngFor="let naucneOblastiKontrola of kreirajCasopisForma.get('naucneOblasti').controls; let i = index" 
+                            [formGroupName]="i"
+                            style="margin-top: 5px;">
+                            <div class="col-xs-8">
+                                <select id="status" class="form-control" formControlName="naziv">
+                                    <option *ngFor="let status of listaNaucnihOblasti" [value]="status">{{ status }}</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-2">
+                                 <button type="button" class="btn btn-danger" (click)="obrisiNaucnuOblast(i)" *ngIf="i != 0">X</button>
+                            </div>
+                        </div>
+                        <br>               
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <button type="button" class="btn" (click)="dodajNaucnuOblast()">
+                                    Dodaj naucnu oblast
+                                </button>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <button [disabled]="!kreirajCasopisForma.valid" type="submit" class="btn btn-success">Kreiraj</button>                        
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

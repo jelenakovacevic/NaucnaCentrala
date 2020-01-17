@@ -1,0 +1,20 @@
+<div *ngIf="korisnikCekaPotvrdu">
+    <div *ngFor="let korisnik of korisnikCekaPotvrdu;let i = index">
+        {{i+1}}. Potvdi korisnika kao recenzenta: Korisnicko ime: {{korisnik.korisnickoIme}}, NaucneOblasti: {{korisnik.naucneOblasti}}
+        <button type="button" class="btn btn-success" (click)="potvrda(korisnik.id)">Potvrdi</button>
+    </div>
+</div>
+<div *ngIf="casopisCekaPregled">
+    <div *ngFor="let casopis of casopisCekaPregled;let i = index">
+        {{i+1}}. Provera podataka casopisa: <br>
+        Naziv: {{casopis.naziv}} <br>
+        ISSN broj: {{casopis.issNbroj}} <br> 
+        Da li je casopis open-access: {{casopis.openAccess}} <br>
+        Naucne oblasti: {{casopis.naucneOblasti}} <br>
+        Urednici: {{casopis.urednici}} <br>
+        Recenzenti: {{casopis.recenzenti}} <br>
+        Glavni urednik: {{casopis.glavniUrednik}} <br> 
+        <button type="button" class="btn btn-success" (click)="potvrdaCasopisa(casopis.id)">Potvrdi</button>
+        <button type="button" class="btn btn-danger" (click)="odbijanjeCasopisa(casopis.id)">Odbij</button>
+    </div>
+</div>

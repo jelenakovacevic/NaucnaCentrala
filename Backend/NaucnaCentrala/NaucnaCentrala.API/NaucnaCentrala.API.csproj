@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NaucnaCentrala.Core\NaucnaCentrala.Core.csproj" />
+    <ProjectReference Include="..\NaucnaCentrala.Data\NaucnaCentrala.Data.csproj" />
+    <ProjectReference Include="..\NaucnaCentrala.Interfaces\NaucnaCentrala.Interfaces.csproj" />
+    <ProjectReference Include="..\NaucnaCentrala.Workers\NaucnaCentrala.Workers.csproj" />
+  </ItemGroup>
+
+</Project>

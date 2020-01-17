@@ -1,0 +1,23 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Naucna centrala</a>
+        </div>
+        <div class="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a *ngIf="accountsService.korisnikAutentifikovan() && accountsService.dobaviUlogu() == 'Editor'" href="kreiraj-casopis">Kreiraj casopis</a></li>
+                <li><a *ngIf="accountsService.korisnikAutentifikovan() && accountsService.dobaviUlogu() == 'Editor'" href="zadaci">Zadaci</a></li>
+                <li><a *ngIf="accountsService.korisnikAutentifikovan() && accountsService.dobaviUlogu() == 'Administrator'" href="moji-zadaci">Zadaci</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <ul class="nav navbar-nav">
+                        <li><a *ngIf="!accountsService.korisnikAutentifikovan()" href="registruj-se">Registrujte se</a></li>
+                        <li><a *ngIf="!accountsService.korisnikAutentifikovan()" href="uloguj-se">Ulogujte se</a></li>
+                        <li><a *ngIf="accountsService.korisnikAutentifikovan()" href (click)="izlogujSe()">Izlogujte se</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

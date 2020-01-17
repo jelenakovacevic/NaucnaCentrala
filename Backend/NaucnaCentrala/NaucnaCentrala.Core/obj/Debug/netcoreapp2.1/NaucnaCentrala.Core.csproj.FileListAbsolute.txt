@@ -1,0 +1,16 @@
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\NaucnaCentrala.Core.deps.json
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\NaucnaCentrala.Core.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\NaucnaCentrala.Core.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\obj\Debug\netcoreapp2.1\NaucnaCentrala.Core.csprojAssemblyReference.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\obj\Debug\netcoreapp2.1\NaucnaCentrala.Core.csproj.CoreCompileInputs.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\obj\Debug\netcoreapp2.1\NaucnaCentrala.Core.AssemblyInfoInputs.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\obj\Debug\netcoreapp2.1\NaucnaCentrala.Core.AssemblyInfo.cs
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\obj\Debug\netcoreapp2.1\NaucnaCentrala.Core.csproj.CopyComplete
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\obj\Debug\netcoreapp2.1\NaucnaCentrala.Core.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\obj\Debug\netcoreapp2.1\NaucnaCentrala.Core.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Core\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.pdb

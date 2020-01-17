@@ -1,0 +1,107 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+            
+            <form [formGroup]="registracijaForma" (ngSubmit)="potvrdi()">                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="korisnickoIme">Korisnicko ime</label>
+                            <input type="text" id="korisnickoIme" formControlName="korisnickoIme" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="lozinka">Lozinka</label>
+                            <input type="password" id="lozinka" formControlName="lozinka" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="ime">Ime</label>
+                            <input type="text" id="ime" formControlName="ime" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="prezime">Prezime</label>
+                            <input type="text" id="prezime" formControlName="prezime" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="grad">Grad</label>
+                            <input type="text" id="grad" formControlName="grad" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="drzava">Drzava</label>
+                            <input type="text" id="drzava" formControlName="drzava" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="titula">Titula</label>
+                            <input type="text" id="titula" formControlName="titula" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="recenzent">Zelite da budete recenzent?</label> <br>
+                            <input type="checkbox" id="recenzent" formControlName="recenzent">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">                    
+                    <div class="col-xs-12" formArrayName="naucneOblasti">
+                        <label for="recenzent">Naucne oblasti</label>
+                        <div 
+                            class="row" 
+                            *ngFor="let naucneOblastiKontrola of registracijaForma.get('naucneOblasti').controls; let i = index" 
+                            [formGroupName]="i"
+                            style="margin-top: 5px;">
+                            <div class="col-xs-8">
+                                <select id="status" class="form-control" formControlName="naziv">
+                                    <option *ngFor="let status of listaNaucnihOblasti" [value]="status">{{ status }}</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-2">
+                                 <button type="button" class="btn btn-danger" (click)="obrisiNaucnuOblast(i)" *ngIf="i != 0">X</button>
+                            </div>
+                        </div>
+                        <br>               
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <button type="button" class="btn" (click)="dodajNaucnuOblast()">
+                                    Dodaj naucnu oblast
+                                </button>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <button [disabled]="!registracijaForma.valid" type="submit" class="btn btn-success">Registruj se</button>                        
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

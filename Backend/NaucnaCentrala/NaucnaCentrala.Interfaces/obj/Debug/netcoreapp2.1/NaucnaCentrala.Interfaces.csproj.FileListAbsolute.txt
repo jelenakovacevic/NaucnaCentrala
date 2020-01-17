@@ -1,0 +1,12 @@
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\bin\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.deps.json
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\bin\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\bin\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\obj\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.csproj.CoreCompileInputs.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\obj\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.AssemblyInfoInputs.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\obj\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.AssemblyInfo.cs
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\obj\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\obj\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\obj\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.csprojAssemblyReference.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Interfaces\obj\Debug\netcoreapp2.1\NaucnaCentrala.Interfaces.csproj.CopyComplete

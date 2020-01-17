@@ -1,0 +1,8 @@
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Domain\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.deps.json
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Domain\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Domain\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Domain\obj\Debug\netcoreapp2.1\NaucnaCentrala.Domain.csproj.CoreCompileInputs.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Domain\obj\Debug\netcoreapp2.1\NaucnaCentrala.Domain.AssemblyInfoInputs.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Domain\obj\Debug\netcoreapp2.1\NaucnaCentrala.Domain.AssemblyInfo.cs
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Domain\obj\Debug\netcoreapp2.1\NaucnaCentrala.Domain.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Domain\obj\Debug\netcoreapp2.1\NaucnaCentrala.Domain.pdb

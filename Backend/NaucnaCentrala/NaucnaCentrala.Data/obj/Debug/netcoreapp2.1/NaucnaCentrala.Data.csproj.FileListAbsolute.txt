@@ -1,0 +1,14 @@
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\bin\Debug\netcoreapp2.1\NaucnaCentrala.Data.deps.json
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\bin\Debug\netcoreapp2.1\NaucnaCentrala.Data.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\bin\Debug\netcoreapp2.1\NaucnaCentrala.Data.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\bin\Debug\netcoreapp2.1\NaucnaCentrala.Domain.pdb
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\obj\Debug\netcoreapp2.1\NaucnaCentrala.Data.csprojAssemblyReference.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\obj\Debug\netcoreapp2.1\NaucnaCentrala.Data.csproj.CoreCompileInputs.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\obj\Debug\netcoreapp2.1\NaucnaCentrala.Data.AssemblyInfoInputs.cache
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\obj\Debug\netcoreapp2.1\NaucnaCentrala.Data.AssemblyInfo.cs
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\obj\Debug\netcoreapp2.1\NaucnaCentrala.Data.csproj.CopyComplete
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\obj\Debug\netcoreapp2.1\NaucnaCentrala.Data.dll
+D:\Faks\UPP\Projekat\Workspace\Backend\NaucnaCentrala\NaucnaCentrala.Data\obj\Debug\netcoreapp2.1\NaucnaCentrala.Data.pdb

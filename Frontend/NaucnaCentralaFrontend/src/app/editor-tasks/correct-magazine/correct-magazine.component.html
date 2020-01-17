@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+            <form *ngIf="casopis" [formGroup]="korigujCasopisForma" (ngSubmit)="potvrdi()">                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="issnBroj">ISSN broj</label>
+                            <input type="number" id="issnBroj" formControlName="issnBroj" class="form-control">
+                        </div>
+                    </div>
+                </div>               
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="openAccess">Da li je casopis open-access?</label> <br>
+                            <input type="checkbox" id="openAccess" formControlName="openAccess">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <button [disabled]="!korigujCasopisForma.valid" type="submit" class="btn btn-success">Koriguj</button>                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

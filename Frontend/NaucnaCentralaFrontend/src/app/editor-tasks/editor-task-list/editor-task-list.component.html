@@ -1,0 +1,12 @@
+<div *ngIf="dodajZadatakRecenzentu">    
+    <div *ngFor="let casopis of dodajZadatakRecenzentu;let i = index">
+        {{i+1}}. Dodavanje recenzenta i urednika za casopis: Ime: {{casopis.naziv}}
+        <button type="button" class="btn btn-success" (click)="dodaj(casopis.id)">Dodaj</button>
+    </div>
+</div>
+<div *ngIf="korigujCasopis">    
+    <div *ngFor="let casopis of korigujCasopis;let i = index">
+        {{i+1}}. Koriguj casopis podatke: {{casopis.naziv}}
+        <button type="button" class="btn btn-success" (click)="koriguj(casopis.id)">Koriguj</button>
+    </div>
+</div>
